@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --color-fondo: #94D2BD;
+    --color-primario: #BB3E03;
+    --color-secundario: #AE2012;
+    --color-boton: #EE9B00;
+}

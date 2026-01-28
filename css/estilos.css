@@ -7,5 +7,60 @@
     --color-fondo: #94D2BD;
     --color-primario: #BB3E03;
     --color-secundario: #AE2012;
+    --color-fondo-oscuro: #001219;
     --color-boton: #EE9B00;
+    --color-hover: #CA6702;
+}
+.body{
+    font-family: "Zalando Sans Expanded", sans-serif;
+    background-color: var(--color-fondo);
+}
+.logo{
+    height: 100px;
+    width: 100px; 
+}
+.navbar-dark{
+    background-color: var(--color-fondo-oscuro);
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: var(--color-primario);
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: var(--color-secundario);
+}
+.hero{
+    background-image: linear-gradient(rgba(15, 23, 42, 0.7), rgba(15, 23, 42, 0.8)), 
+    url(https://img.freepik.com/fotos-premium/trabajo-equipo-construccion-equipo-ingenieros-arquitectos-que-trabajan-juntos-construir-proyectos-exitosos-concepto-trabajo-equipo_61243-707.jpg);
+    min-height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:var(--color-fondo);
+    padding: 2rem;
+    
+}
+.hero h1{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.footer-contenedor{
+    padding: 2rem;
+}
+.footer-titulo{
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.footer-link-contenedor{
+    list-style: none;
+}
+.footer-link{
+    color: var(--color-primario);
+    text-decoration: none;
+}
+.footer-link:hover{
+    color: var(--color-secundario);
 }

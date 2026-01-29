@@ -5,11 +5,12 @@
 }
 :root{
     --color-fondo: #94D2BD;
+    --color-fondo-oscuro: #001219;
     --color-primario: #BB3E03;
     --color-secundario: #AE2012;
-    --color-fondo-oscuro: #001219;
     --color-boton: #EE9B00;
     --color-hover: #CA6702;
+    --color-borde: #0A9396;
 }
 .body{
     font-family: "Zalando Sans Expanded", sans-serif;
@@ -47,12 +48,21 @@
     text-transform: uppercase;
     font-weight: bold;
 }
+.footer{
+    background-color: var(--color-fondo-oscuro);
+    padding: 2rem;
+    margin: 1rem;
+
+}
+
+
 .footer-contenedor{
     padding: 2rem;
 }
 .footer-titulo{
     text-transform: capitalize;
     font-weight: bold;
+    color: var(--color-primario);
 }
 .footer-link-contenedor{
     list-style: none;
